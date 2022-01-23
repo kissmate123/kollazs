@@ -7,80 +7,9 @@
     <link rel="stylesheet" href="evszakok.css">
     <title>ÉVSZAKOK</title>
     
-      <style>
-    body {
-      margin: 0;
-    }
-
-    .sidebar {
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #f1f1f1;
-      position: fixed;
-      height: 100%;
-      overflow: auto;
-    }
-
-    .sidebar a {
-      display: block;
-      color: black;
-      padding: 16px;
-      text-decoration: none;
-    }
-
-    .sidebar a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-
-    .sidebar a:hover:not(.active) {
-      background-color: #555;
-      color: white;
-    }
-
-    div.content {
-      font-family: 'Comforter Brush', cursive;
-
-      margin-left: 200px;
-      padding: 1px 16px;
-      height: 1000px;
-    }
-
-    @media screen and (max-width: 700px) {
-      .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-      }
-
-      .sidebar a {
-        float: left;
-      }
-
-      div.content {
-        margin-left: 0;
-      }
-    }
-
-    @media screen and (max-width: 400px) {
-      .sidebar a {
-        text-align: center;
-        float: none;
-      }
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
-  </style>
+     
 </head>
 <body>
-
-<div class="sidebar">
-    <a class="active" href="https://kissmate123.github.io/kollazs/">Kollázs</a>
-    <a href="https://kissmate123.github.io/kollazs/keplink.html">Képlink</a>
-    <a href="https://kissmate123.github.io/kollazs/orarend.html">Órarend</a>
-    <a href="https://kissmate123.github.io/kollazs/listak.html">Listák</a>
-  </div>
 
     <div class="content">
 
