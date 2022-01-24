@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-.box1 {
+.evszak1 {
    height: 200px;
    width: 200px;
    float: left;
@@ -23,14 +23,14 @@ body {
    transition: 1s;
 }
 
-.box1:hover {
+.evszak1:hover {
     transform: scale(1.2);
     
     color: red;
 
 }
 
-.box2 {
+.evszak2 {
     height: 200px;
    width: 200px;
    float: left;
@@ -40,12 +40,12 @@ body {
 }
     
 
-.box2:hover {
+.evszak2:hover {
     transform: scale(1.2);
     
     color: red;
 }
-.box3 {
+.evszak3 {
     height: 200px;
    width: 200px;
    float: left;
@@ -56,13 +56,13 @@ body {
     
 
 
-.box3:hover {
+.evszak3:hover {
     transform: scale(1.2);
     
     color: red;
 }
 
-.box4 {
+.evszak4 {
     height: 200px;
    width: 200px;
    float: left;
@@ -72,7 +72,7 @@ body {
 }
     
 
-.box4:hover {
+.evszak4:hover {
     transform: scale(1.2);
     transition: 1s;
     color: red;
