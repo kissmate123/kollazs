@@ -1,0 +1,3 @@
+szoftver: a hardvert működtető program
+3 fajtája :Rendszerszoftverek, Alkalmazói szoftverek, Felhasználó által létrehozott szoftverek
+hardver : kézzel lehet fogni, a számítógéphez alapvető rész 
