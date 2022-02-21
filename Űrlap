@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="57x57" href="favico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favico/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>Űrlap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<style>
+body {
+margin: 0;
+font-family: 'Fjalla One', sans-serif;
+}
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+.sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+.sidebar a.active {
+background-color:coral;
+color: white;
+}
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
+}
+@media screen and (max-width: 700px) {
+.sidebar {
+width: 100%;
+height: auto;
+position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+.sidebar a {
+text-align: center;
+float: none;
+}
+}
+</style>
+</head>
+<body>
+    <div class="sidebar">
+        <a class="active" href="https://kissmate123.github.io/kollazs/">Kollázs</a>
+        <a href="https://kissmate123.github.io/kollazs/keplink.html">Képlink</a>
+        <a href="https://kissmate123.github.io/kollazs/orarend.html">Órarend</a>
+        <a href="https://kissmate123.github.io/kollazs/listak.html">Listák</a>
+        <a href="https://kissmate123.github.io/kollazs/evszakok.html">Évszakok</a>
+      </div>
+<div class="content">
+<p>Pizza vásárlás Űrlap:</p>
+<p>Név:</p>
+<p>Kereszt név:</p>
+<input type="text">
+<p>Vezetéknév név:</p>
+<input type="text">
+<p>Lakcím:</p>
+<input type="text">
+<p>Telefonszám:</p>
+<input type="text">
+<p>E-mail cím:</p>
+<input type="email">
+<p>Pizza méret:</p>
+<input type="radio" name="pizza"> 32cm
+<input type="radio" name="pizza"> 64cm
+<p>Feltétek:</p>
+<select>
+<option>nincs</option>
+<option>sonka</option>
+<option>szalámi</option>
+<option>ananász</option>
+<option>paprika</option>
+<option>négy sajtos</option>
+<option>kukorica</option>
+</select>
+<p>Kiszállítás időpontja:</p>
+<input type="time">
+<br>
+<br>
+<input type="checkbox"> Egyetértek az adatkezelési irányelvekkel.
+<br>
+<br>
+<input type="submit">
+<footer>
+<p>
+<hr>
+Elérhetőségek:
+<br>
+gamil: kissm@kkszki.hu
+<br>
+telefonszám: 36 20 325 5758
+</p>
+</footer>
+</div>
+</body>
+</html>
