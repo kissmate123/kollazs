@@ -2,7 +2,15 @@ body {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFHPrNM3GlKiUYhnNfCvMdc1pCve2kRFmgA&usqp=CAU);
 }
-
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
 .content {
     background-color: forestgreen;
     border: 5px solid red;
